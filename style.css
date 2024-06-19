@@ -1,0 +1,38 @@
+
+.box1{
+    position: absolute;
+    z-index: 2;
+}
+.box2{
+    left: 371px;
+    position: absolute;
+    z-index: 1;
+}
+.box3{
+    left: 859px;
+    position: absolute;
+    z-index: 2;
+}
+.box4{
+    width: 522px;
+    height: 65px;
+    top: 182px;
+    left: 391px;
+    position: absolute;
+    z-index: 3;
+}
+@font-face {
+    font-family: font;
+    src: url(/fonts/Inter-SemiBold.ttf);
+}
+p{
+    font-family: font;
+    font-size: 12px;
+    line height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+body{
+    background-color: black;
+    margin: 0;
+}
